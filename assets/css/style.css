@@ -16,6 +16,7 @@ body {
 
 a {
     text-decoration: none;
+    color: var(--color-primary);
 }
 
 .navigation-bar {
@@ -59,7 +60,20 @@ h1.logo a {
 }
 
 .hero {
-    background-image: url();
+    background-image: url(../images/hero-background.jpg);
+    background-size: cover;
+    min-height: 200px;
+    position: relative;
+}
+
+.hero-subtitle {
+    font-size: 1.8rem;
+    color: var(--color-dark);
+    padding: 1rem;
+    background: var(--color-primary);
+    position: absolute;
+    bottom: 3rem;
+    right: 10rem;
 }
 
 section.main-section h2 {
@@ -83,6 +97,7 @@ section.main-section {
 .content {
     display: flex;
     flex-wrap: wrap;
+    flex-grow: 1;
     padding: 0 12vw 0 5rem;
     color: var(--color-secondary);
 }
@@ -107,4 +122,40 @@ section.main-section {
     color: var(--color-secondary);
     font-weight: 600;
     font-size: 1.8rem;
+}
+
+.cards {
+    justify-content: space-between;
+}
+
+.card {
+    border: .6rem solid var(--color-primary);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.card-title {
+    background: var(--color-primary);
+    position: relative;
+    bottom: 0;
+}
+
+#surf-report {
+    background-image: url(../images/surf-report.jpg);
+}
+
+#LED-wall {
+    background-image: url(../images/LED-wall.jpg);
+}
+
+#calculator {
+    background-image: url(../images/calculator.jpg);
+}
+
+#pastel-puzzle {
+    background-image: url(../images/pastel-puzzle.jpg);
+}
+
+#run-buddy {
+    background-image: url(../images/run-buddy.jpg);
 }
