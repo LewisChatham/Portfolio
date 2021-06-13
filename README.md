@@ -3,6 +3,12 @@
 
 Welcome to my CSS Portfolio.
 
+You can access the project on the following URL's
+
+Live on Github: https://lewischatham.github.io/Portfolio/
+
+View the repo on Github: https://github.com/LewisChatham/Portfolio
+
 My motivation for creating this porject was largely to explore new concepts, such as flexbox, media queries and semantic elements.
 
 The reason I built a portfolio, is to host my current and future projects, and to have a central location where I can access and showcase all of my work.
